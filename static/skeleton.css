@@ -250,27 +250,27 @@ h6 {
 @media (min-width: 550px) {
     h1 {
         font-size: 5rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
     h2 {
         font-size: 4.2rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
     h3 {
         font-size: 3.6rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
     h4 {
         font-size: 3rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
     h5 {
         font-size: 2.4rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
     h6 {
         font-size: 1.5rem;
-        color: #3366ff;
+        color: #ff00aa;
     }
 }
 
@@ -286,7 +286,7 @@ p {
 
 .box {
     margin-bottom: 20px;
-    padding: 10px 10px;
+    padding: 10px 40px;
     opacity: 0.6;
     background: #fff;
     background: rgba(151, 147, 151);
@@ -386,7 +386,7 @@ input[type='password'],
 textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
+    /* appearance: none; */
 }
 textarea {
     min-height: 65px;
