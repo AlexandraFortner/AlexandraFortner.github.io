@@ -199,7 +199,7 @@ body {
         sans-serif;
     color: #e8a5d8;
     height: 100%;
-    display: table-cell;
+    /* display: table-cell; */
     vertical-align: middle;
 }
 
@@ -286,7 +286,7 @@ p {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 10px 10px;
     opacity: 0.6;
     background: #fff;
     background: rgba(151, 147, 151);
