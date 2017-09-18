@@ -187,6 +187,9 @@ html {
     -o-background-size: cover;
     background-size: cover;
     font-size: 62.5%;
+    height: 100%;
+    display: table;
+    margin: auto;
 }
 body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -195,6 +198,9 @@ body {
     font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
         sans-serif;
     color: #e8a5d8;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /* Typography
@@ -270,6 +276,20 @@ h6 {
 
 p {
     margin-top: 50;
+}
+
+.pad {
+    background-color: #e8a5d8;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    opacity: 0.6;
+    background: #fff;
+    background: rgba(151, 147, 151);
 }
 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */ a {
