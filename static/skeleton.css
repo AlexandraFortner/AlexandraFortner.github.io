@@ -180,8 +180,8 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-    background: url(/home/basecamp/My_Second_Website/static/pictures/roman-kraft-91576.jpg)
-        no-repeat center center fixed;
+    background: url(static/pictures/roman-kraft-91576.jpg) no-repeat center
+        center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -292,13 +292,15 @@ p {
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
+    border-style: outset;
+    /* border-color: #22cc77; */
 }
 
- {
+a {
     color: #e8a5d8;
 }
 a:hover {
-    color: #c05ca7;
+    color: #b956a1;
 }
 
 /* Buttons
@@ -593,4 +595,145 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+}
+
+/* Ribbons */
+/* -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f0f0;
+    font-family: 'Noto Sans', sans-serif;
+} */
+
+h1 {
+    width: 500px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -275px;
+    font-size: 3.2em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+    color: #aaa;
+}
+
+h2 {
+    width: 500px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 -225px;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 100%;
+    color: #bbb;
+}
+
+/* The ribbons */
+
+.corner-ribbon {
+    width: 200px;
+    background: #e43;
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky {
+    position: fixed;
+}
+
+.corner-ribbon.shadow {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left {
+    top: 25px;
+    left: -50px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right {
+    top: 25px;
+    right: -50px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left {
+    top: auto;
+    bottom: 25px;
+    left: -50px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right {
+    top: auto;
+    right: -50px;
+    bottom: 25px;
+    left: auto;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white {
+    background: #f0f0f0;
+    color: #555;
+}
+.corner-ribbon.black {
+    background: #333;
+}
+.corner-ribbon.grey {
+    background: #999;
+}
+.corner-ribbon.blue {
+    background: #39d;
+}
+.corner-ribbon.green {
+    background: #22cc77;
+}
+.corner-ribbon.turquoise {
+    background: #1b9;
+}
+.corner-ribbon.purple {
+    background: #95b;
+}
+.corner-ribbon.red {
+    background: #e43;
+}
+.corner-ribbon.orange {
+    background: #e82;
+}
+.corner-ribbon.yellow {
+    background: #ec0;
+}
+
+.corner-ribbon.pink {
+    background: #ff00aa;
 }
