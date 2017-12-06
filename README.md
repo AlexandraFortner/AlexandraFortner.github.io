@@ -1,5 +1,5 @@
 # AlexandraFortner.github.io
 My Professional Portfolio.
 
-To Open:<br>
+Live Version:<br>
 https://alexandrafortner.github.io/
