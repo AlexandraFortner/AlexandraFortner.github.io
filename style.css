@@ -1,5 +1,5 @@
 html {
-    background: url(static/pictures/SpaceCoffee.jpeg) no-repeat center center
+    background: url(static/pictures/music.jpeg) no-repeat center center
         fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9,6 +9,10 @@ html {
     height: 100%;
     display: table;
     margin: auto;
+}
+
+p {
+    border-style: inset;
 }
 
 body {
@@ -79,7 +83,9 @@ body {
     -webkit-transform: rotate(-45deg);
 }
 .corner-ribbon.brown {
-    background: #8d6a50;
+    background: #666361;
+    border-color: #121d05;
+    border-style: double;
 }
 
 /* END OF RIBBONS */
@@ -91,10 +97,10 @@ a:hover {
     outline: 0;
 }
 a:link {
-    color: #343122;
+    color: #3a3838;
 }
 a:visited {
-    color: #5C755E;
+    color: #000000;
 }
 
 /* END OF A TAGS */
